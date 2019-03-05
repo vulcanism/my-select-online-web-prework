@@ -3,5 +3,5 @@ def my_select(collection)
  i = 0
  while i < collection.length
  yield(collection[i]) == true ? array << collection[i] : nil
-    i +=  1
+ i +=  1
 end
